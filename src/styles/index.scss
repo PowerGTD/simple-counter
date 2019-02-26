@@ -1,0 +1,40 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 125px;
+    padding-right: 125px;
+    background: black;
+    justify-content: space-between;
+}
+
+.banner div{
+    display: inline-block;
+    font-size: 170px;
+    line-height: 170px;
+    background: #101010;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border-left: 3px solid #1e1e1e;
+    border-right: 3px solid #1e1e1e;
+}
+
+/* 
+
+    You can write your own styles here...
+    
+    
+    ...Or you can use the import command to include 
+    other sylesheets into your bunde as well, e.j:
+    
+    import 'relative/path/to/stylesheet.scss';
+
+*/
